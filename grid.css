@@ -1,0 +1,36 @@
+.grid{
+    background-color: rgba(70,20,50,0.5);
+    display: grid;
+    grid-template: repeat(10,100px) / 1fr 1fr 1fr;
+    
+}
+
+#hipp{
+    grid-column: 1;
+    grid-row: 1;
+    font-size: 100px;
+    color: #fff;
+}
+
+#hupp{
+    grid-column: 2;
+    grid-row: 4;
+    font-size: 100px;
+    color: #fff;
+}
+
+#hurra{
+    grid-column: 3;
+    grid-row: 8;
+    font-size: 100px;
+    color: #fff;
+}
+
+body{
+    background-color: #000;
+}
+
+.box{
+    grid-area: 1/2/10/2;
+    background-color: #ffffff7c;
+}

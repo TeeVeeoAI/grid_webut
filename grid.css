@@ -34,3 +34,53 @@ body{
     grid-area: 1/2/10/2;
     background-color: #ffffff7c;
 }
+
+#RoB{
+    width: 100%;
+    max-height: 100px;
+}
+
+#R{
+    position: fixed;
+    bottom: 1%;
+    left: 1%;
+    background-color: #FF0000;
+    border: 5px outset #000;
+    width: 50px;
+    border-radius: 10px 10px;
+    height: 27px;
+}
+
+#R:hover{
+    background-color: #ff000070;
+    border: 5px inset #000;
+}
+
+#B{
+    position: fixed;
+    bottom: 1%;
+    left: 4%;
+    background-color: #0000ff;
+    border: 5px outset #000;
+    width: 50px;
+    border-radius: 10px 10px;
+    height: 27px;
+}
+
+#B:hover{
+    background-color: #0000ff70;
+    border: 5px inset #000;
+}
+
+#o{
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    border: 2px solid #000;
+    border-radius: 10px 10px;
+    background-color: #777;
+    box-sizing: border-box;
+    width: 150px;
+    z-index: 0;
+    height: 50px;
+}
